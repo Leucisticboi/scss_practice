@@ -1,0 +1,60 @@
+.test-btn {
+  background-color: #E8A49C;
+}
+
+* {
+  color: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+br {
+  color: #E8A49C;
+  margin: 0.75rem;
+}
+
+a {
+  text-decoration: none;
+  color: #F9C449;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dotted #efefef;
+}
+
+img {
+  max-width: 100%;
+}
+
+.test {
+  color: #E8A49C;
+}
+
+.card {
+  display: block;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  border: 1px solid #F9C449;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.card .card-title {
+  font-size: 1.5rem;
+  padding-bottom: 0.75rem;
+  font-weight: bold;
+}
+.card .card-body {
+  font-size: 1rem;
+}
+.card .card-body a {
+  text-decoration: underline;
+}

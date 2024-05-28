@@ -1,0 +1,42 @@
+// Theme colors
+$primary: #E8A49C;
+$secondary: #3C4CAD;
+$tertiary: #240E8B;
+$error: #F04393;
+$info: #F9C449;
+
+// map for the color palette
+$colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'tertiary': $tertiary,
+  'error': $error,
+  'info': $info
+);
+
+.test-btn {
+  background-color: map-get($colors, 'primary');
+}
+
+// @debug map-get($colors, 'primary');
+// @debug map-get($colors, 'poopy');
+// @debug map-remove($colors, 'primary');
+// @debug map-merge($colors, ('pink': #ffc0cb));
+
+// Spacing
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+// Borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+// box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+
+// font sizes
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;

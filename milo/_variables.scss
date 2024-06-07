@@ -11,7 +11,10 @@ $colors: (
   'secondary': $secondary,
   'tertiary': $tertiary,
   'error': $error,
-  'info': $info
+  'info': $info,
+  'white': white,
+  'black': black,
+  'gray': gray
 );
 
 .test-btn {
